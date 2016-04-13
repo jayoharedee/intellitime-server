@@ -1,0 +1,7 @@
+import intellitime.server.Timesheet
+
+model {
+	Timesheet timesheet
+}
+
+json tmpl.timesheet(timesheet)

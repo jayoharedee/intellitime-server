@@ -1,0 +1,8 @@
+import intellitime.server.Timesheet
+
+model {
+	Iterable<Timesheet> timesheetList
+}
+
+json tmpl.timesheet(timesheetList ?: [])
+

@@ -1,0 +1,8 @@
+import intellitime.server.Task
+
+model {
+	Iterable<Task> taskList
+}
+
+json tmpl.task(taskList ?: [])
+

@@ -1,0 +1,7 @@
+import intellitime.server.Task
+
+model {
+	Task task
+}
+
+json tmpl.task(task)

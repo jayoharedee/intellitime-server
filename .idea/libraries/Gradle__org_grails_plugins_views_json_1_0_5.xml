@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:views-json:1.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/views-json/1.0.5/4748d3c9f2afb751f534f3f11dcaebe514a880cb/views-json-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/views-json/1.0.5/63c2683cb535f53348fea6c58a000ed320b6f2d/views-json-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
