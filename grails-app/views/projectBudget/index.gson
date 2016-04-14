@@ -1,0 +1,8 @@
+import intellitime.server.ProjectBudget
+
+model {
+	Iterable<ProjectBudget> projectBudgetList
+}
+
+json tmpl.projectBudget(projectBudgetList ?: [])
+

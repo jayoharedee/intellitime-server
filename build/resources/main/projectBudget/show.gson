@@ -1,0 +1,7 @@
+import intellitime.server.ProjectBudget
+
+model {
+	ProjectBudget projectBudget
+}
+
+json tmpl.projectBudget(projectBudget)

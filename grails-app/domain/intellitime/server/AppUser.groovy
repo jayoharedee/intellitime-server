@@ -8,6 +8,11 @@ class AppUser {
     String password
     String title
 
+    static hasMany = [
+            timesheets:Timesheet,
+            budgets:ProjectBudget
+    ]
+
     static constraints = {
     }
 }

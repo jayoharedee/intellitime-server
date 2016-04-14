@@ -48,8 +48,34 @@ class UrlMappings {
         "/activities/$id"(controller: "activity", action: "update", method: "PUT")
         "/activities/$id"(controller: "activity", action: "delete", method: "DELETE")
 
-        // User
-        "/user"(controller: "appUser", action: "save", "POST")
+        // #### USERS ####
+        // GET ALL OR ONE
+        "/users"(controller: "appUser", action: "index", method: "GET")
+        "/users/$id"(controller: "appUser", action: "show", method: "GET")
+
+        // POST
+        "/users"(controller: "appUser", action: "save", method: "POST")
+
+        // OTHER HTTP METHODS
+        "/users/$id?"(controller: "appUser", action: "save", method: "OPTIONS")
+        "/users/$id"(controller: "appUser", action: "update", method: "PUT")
+        "/users/$id"(controller: "appUser", action: "delete", method: "DELETE")
+
+
+        // #### BUDGETS ####
+        // GET ALL OR ONE
+        "/budgets"(controller: "projectBudget", action: "index", method: "GET")
+        "/budgets/$id?"(controller: "projectBudget", action: "index", method: "GET")
+
+        // POST
+        "/budgets"(controller: "projectBudget", action: "save", method: "POST")
+
+        // OTHER HTTP METHODS
+        "/budgets/$id?"(controller: "projectBudget", action: "save", method: "OPTIONS")
+        "/budgets/$id"(controller: "projectBudget", action: "update", method: "PUT")
+        "/budgets/$id"(controller: "projectBudget", action: "delete", method: "DELETE")
+
+
 
 
         "/"(controller: 'application', action:'index')

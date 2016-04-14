@@ -9,7 +9,10 @@ class Project {
     String projectEnd
     float budget
 
-    static hasMany = [timesheets:Timesheet]
+    static hasMany = [
+            timesheets:Timesheet,
+            budgets:ProjectBudget
+    ]
 
     static constraints = {
         department nullable: true
