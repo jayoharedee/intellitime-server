@@ -1,0 +1,8 @@
+import intellitime.server.Activity
+
+model {
+	Iterable<Activity> activityList
+}
+
+json tmpl.activity(activityList ?: [])
+

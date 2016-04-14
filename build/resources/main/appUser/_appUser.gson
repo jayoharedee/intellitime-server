@@ -1,0 +1,7 @@
+import intellitime.server.AppUser
+
+model {
+	AppUser appUser
+}
+
+json g.render(appUser)

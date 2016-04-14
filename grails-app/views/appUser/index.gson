@@ -1,0 +1,8 @@
+import intellitime.server.AppUser
+
+model {
+	Iterable<AppUser> appUserList
+}
+
+json tmpl.appUser(appUserList ?: [])
+

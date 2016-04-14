@@ -6,10 +6,10 @@ class CorsInterceptor {
     CorsInterceptor() { matchAll() }
 
     boolean before() {
-        header( "Access-Control-Allow-Origin", "http://localhost:3000" )
+        header( "Access-Control-Allow-Origin", "*" )
         boolean options = ("OPTIONS" == request.method)
         if (options) {
-            header( "Access-Control-Allow-Origin", "http://localhost:3000" )
+            header( "Access-Control-Allow-Origin", "*" )
             //header( "Access-Control-Allow-Credentials", "true" )
             header( "Access-Control-Allow-Methods", "POST, OPTIONS, DELETE, PUT")
             header( "Access-Control-Allow-Headers", "accept, content-type")

@@ -12,7 +12,7 @@ class BootStrap {
         switch (Environment.current) {
             case Environment.DEVELOPMENT:
                 result = 'now running in DEV mode.'
-                seedTestData()
+                //seedTestData()
                 break;
             case Environment.TEST:
                 result = 'now running in TEST mode.'
@@ -52,6 +52,13 @@ class BootStrap {
             returnArray["comment"] = it.comment
             return returnArray
         }
+
+//        JSON.registerObjectMarshaller(Timesheet) {
+//            def returnArray = [:]
+//            returnArray["id"] = it.id
+//            returnArray["activityName"] = it.activityName
+//            return returnArray
+//        }
     }
 
     def destroy = {

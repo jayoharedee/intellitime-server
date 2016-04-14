@@ -3,6 +3,8 @@ package intellitime.server
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
+import static org.springframework.http.converter.json.Jackson2ObjectMapperBuilder.json
+
 @Transactional(readOnly = true)
 class ProjectController {
 
@@ -34,6 +36,7 @@ class ProjectController {
 
         project.save flush:true
 
+        //json g.render(project)
         respond project, [status: CREATED, view:"show"]
     }
 

@@ -19,6 +19,7 @@ dependencies:
 - file:/Users/dev/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/4.3.11.Final/cea0e6aba102c00cf899bd547c338fcf54468433/hibernate-ehcache-4.3.11.Final.jar
 - file:/Users/dev/.gradle/caches/modules-2/files-2.1/org.grails.plugins/views-json/1.0.5/4748d3c9f2afb751f534f3f11dcaebe514a880cb/views-json-1.0.5.jar
 - file:/Users/dev/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.191/dec3540178ea889b2871b0ed56db14bbec9cfdfc/h2-1.4.191.jar
+- file:/Users/dev/.m2/repository/org/postgresql/postgresql/9.3-1101-jdbc41/postgresql-9.3-1101-jdbc41.jar
 - file:/Users/dev/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.1.4/8ddbedc8d016216333ca713e0b1f72f182be88c5/grails-plugin-testing-3.1.4.jar
 - file:/Users/dev/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.0.1/e18899087e1202746f44193d6c7a1657afd9260e/geb-1.0.1.jar
 - file:/Users/dev/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-rest-client/5.0.3.RELEASE/b91535a1c525a38b1daa89d40da0f3ec890f07ba/grails-datastore-rest-client-5.0.3.RELEASE.jar
