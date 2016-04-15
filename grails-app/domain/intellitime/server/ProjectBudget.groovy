@@ -2,9 +2,12 @@ package intellitime.server
 
 class ProjectBudget {
 
-    float hours
+    String hours
     int fiscalYear
 
+    static belongsTo = [project:Project, appUser:AppUser]
+
     static constraints = {
+        project nullable: true
     }
 }

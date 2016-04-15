@@ -65,7 +65,7 @@ class UrlMappings {
         // #### BUDGETS ####
         // GET ALL OR ONE
         "/budgets"(controller: "projectBudget", action: "index", method: "GET")
-        "/budgets/$id?"(controller: "projectBudget", action: "index", method: "GET")
+        "/budgets/$id?"(controller: "projectBudget", action: "show", method: "GET")
 
         // POST
         "/budgets"(controller: "projectBudget", action: "save", method: "POST")

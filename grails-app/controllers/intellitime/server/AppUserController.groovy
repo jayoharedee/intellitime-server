@@ -31,6 +31,7 @@ class AppUserController {
             respond appUser.errors, view:'create'
             return
         }
+        println(appUser.properties)
 
         appUser.save flush:true
 

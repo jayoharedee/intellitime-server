@@ -11,8 +11,11 @@ class Timesheet {
     float hours
     boolean submitted
 
-    //static belongsTo = Project
-    //static hasMany = [activities: Activity]
+    static belongsTo = [
+            projects:Project,
+            activities:Activity,
+            appUsers:AppUser
+    ]
 
     static constraints = {
         date nullable: true

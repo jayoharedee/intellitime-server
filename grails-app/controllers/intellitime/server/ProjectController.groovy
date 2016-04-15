@@ -22,6 +22,7 @@ class ProjectController {
 
     @Transactional
     def save(Project project) {
+        println(project.properties)
         if (project == null) {
             transactionStatus.setRollbackOnly()
             render status: NOT_FOUND

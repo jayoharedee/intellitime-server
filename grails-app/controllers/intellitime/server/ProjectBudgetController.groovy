@@ -20,6 +20,19 @@ class ProjectBudgetController {
 
     @Transactional
     def save(ProjectBudget projectBudget) {
+//        println projectBudget.properties
+//        AppUser a = AppUser.get(1)
+//        println(a)
+//
+//        projectBudget.appUser = a
+//
+//        Project p = Project.get(5)
+//        projectBudget.project = p
+        println projectBudget.properties
+
+
+        projectBudget.appUser = AppUser.get(1)
+
         if (projectBudget == null) {
             transactionStatus.setRollbackOnly()
             render status: NOT_FOUND
@@ -32,7 +45,9 @@ class ProjectBudgetController {
             return
         }
 
+
         projectBudget.save flush:true
+
 
         respond projectBudget, [status: CREATED, view:"show"]
     }
