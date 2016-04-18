@@ -18,7 +18,7 @@ environments:
     development:
         dataSource:
             dbCreate: update
-            url: jdbc:postgresql://localhost:5432/intellitime-dev
+            url: jdbc:postgresql://localhost:5432/intellitime
     test:
         dataSource:
             dbCreate: update

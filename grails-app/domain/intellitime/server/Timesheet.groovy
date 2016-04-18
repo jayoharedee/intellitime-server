@@ -12,9 +12,9 @@ class Timesheet {
     boolean submitted
 
     static belongsTo = [
-            projects:Project,
-            activities:Activity,
-            appUsers:AppUser
+            project:Project,
+            activity:Activity,
+            appUser:AppUser
     ]
 
     static constraints = {

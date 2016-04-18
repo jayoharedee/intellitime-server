@@ -52,13 +52,6 @@ class BootStrap {
             returnArray["comment"] = it.comment
             return returnArray
         }
-
-//        JSON.registerObjectMarshaller(Timesheet) {
-//            def returnArray = [:]
-//            returnArray["id"] = it.id
-//            returnArray["activityName"] = it.activityName
-//            return returnArray
-//        }
     }
 
     def destroy = {

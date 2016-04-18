@@ -14,5 +14,6 @@ class AppUser {
     ]
 
     static constraints = {
+        title nullable: true
     }
 }

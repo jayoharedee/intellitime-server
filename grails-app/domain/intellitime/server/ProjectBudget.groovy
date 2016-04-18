@@ -9,5 +9,6 @@ class ProjectBudget {
 
     static constraints = {
         project nullable: true
+        appUser nullable: true
     }
 }
