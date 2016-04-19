@@ -10,7 +10,7 @@ class ActivityController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 100, 1000)
         respond Activity.list(params), model:[activityCount: Activity.count()]
     }
 
